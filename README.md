@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dtypeStrings from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype-strings@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-dtype-strings/tags). For example,
+
+```javascript
 import dtypeStrings from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype-strings@v0.1.0-esm/index.mjs';
 ```
 
@@ -143,7 +148,7 @@ var out = dtypeStrings( 'floating_point_and_generic' );
 <script type="module">
 
 var contains = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-contains' ).factory;
-import dtypeStrings from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype-strings@v0.1.0-esm/index.mjs';
+import dtypeStrings from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype-strings@esm/index.mjs';
 
 var isdtype = contains( dtypeStrings() );
 
