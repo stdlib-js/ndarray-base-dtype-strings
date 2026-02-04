@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-dtype-strings",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "List of ndarray data type strings.",
   "license": "Apache-2.0",
   "author": {
